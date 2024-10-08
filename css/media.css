@@ -1,0 +1,119 @@
+@media (max-width: 1024px) {
+    .navbar__collection{
+        display: none;
+        color: red;
+    }
+    .navbar__menu{
+        display: block;
+    }
+    .navbar__actions{
+        display: none;
+    }
+    .hero__wrapper{
+        flex-direction: column;
+    }
+    .hero__content{
+        text-align: center;
+    }
+    .brands__card{
+        flex-direction: column;
+        text-align: center;
+    }
+    .products__card{
+        width: calc(50% - 32.66px);
+    }
+    .products__cardd{
+        width: calc(50% - 32.66px);
+    }
+    .about__card{
+        flex-direction: column;
+        text-align: center;
+    }
+    .subsc__wrapper{
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .hero__content{
+        text-align: center;
+    }
+    .hero__title{
+        font-size: 45px;
+    }
+    .hero__desc{
+        font-size: 14px;
+    }
+    .hero__image img{
+        width: 380px;
+    }
+    .brands__wrapper{
+        justify-content: center;
+    }
+    .brands__card{
+        width: calc(50% - 13.33px);
+    }
+    .brands__card{
+        width: calc(50% - 13.33px); 
+    }
+    .products__title{
+        font-size: 30px;
+    }
+    .about__card{
+        width: 100%;
+    }
+    .subsc__wrapper{
+        padding: 33px 20px;
+    }
+}
+@media (max-width: 430px) {
+    .hero__content{
+        text-align: center;
+    }
+    .hero__title{
+        font-size: 35px;
+    }
+    .hero__desc{
+        font-size: 10px;
+    }
+    .hero__image img{
+        width: 340px;
+    }
+    .hero__input{
+        text-indent: 40px;
+        padding: 10px 0;
+        font-size: 10px;
+    }
+    .input__btn{
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    .brands__card{
+        width: 100%;
+    }
+    .products{
+        padding: 0 0 50px;
+    }
+    .products__card{
+        width: 100%;
+    }
+    .products__cardd{
+        width: 100%;
+    }
+    .products__image img{
+        max-width: 250px;
+    }
+    .products__title{
+        font-size: 25px;
+    }
+    .subsc__input{
+        padding: 10px 0;
+        font-size: 10px;
+    }
+    .subsc__btn{
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    .subsc__image{
+        margin-top: 20px;
+    }
+}
